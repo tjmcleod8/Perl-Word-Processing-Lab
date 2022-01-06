@@ -1,0 +1,25 @@
+Enter a regular expression: /\s\w+\s/
+Line 1 has 4 match(es) with starting location(s) shown:
+            is  [4]            my  [7]         input  [9]
+          file  [14]
+
+Line 2 has 5 match(es) with starting location(s) shown:
+         might  [3]            be  [8]       looking  [11]
+           for  [18]       numbers  [21]
+
+Line 3 has 6 match(es) with starting location(s) shown:
+            or  [3]       letters  [5]            or  [13]
+         maybe  [15]          even  [22]        spaces  [27]
+
+Enter a regular expression: /\s\w{4,}\s/
+Line 1 has 2 match(es) with starting location(s) shown:
+         input  [11]          file  [16]
+
+Line 2 has 3 match(es) with starting location(s) shown:
+         might  [3]       looking  [12]       numbers  [23]
+
+Line 3 has 4 match(es) with starting location(s) shown:
+       letters  [6]         maybe  [17]          even  [24]
+        spaces  [29]
+
+Enter a regular expression: //
